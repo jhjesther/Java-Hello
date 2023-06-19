@@ -38,11 +38,17 @@ public class Parameter {
 		System.out.println(add(3,5));
 		System.out.println(sub(3,5));
 		System.out.println(mul(3,5));
-		System.out.println(gradchar(90.8));
-		System.out.println(gradchar(80.0));
-		System.out.println(gradchar(50.0));
+		System.out.println(gradchar(90.8));//수
+		System.out.println(gradchar(80.0));//우
+		System.out.println(gradchar(50.0));//미
+		
+	public static void showStar() { 
+	for int i=1;i<=num;i++
+		for int j=1 j<=i;j++
+				System.out.print("*");
+				
 		
 	}
 
-}
+
 
