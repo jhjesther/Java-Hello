@@ -1,6 +1,8 @@
 
 public class getterSetter {
+	
 	//Object Oriented Programing(객체지향언어) = 자바
+	
 	class Student{
 	   int age;
 	   char gender; 
