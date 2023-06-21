@@ -1,21 +1,26 @@
-public class Stars4 {
+public class Stars4
 
-	{
-		    for(int i = 1; i <= 5; i++) {
+public static void main(String[] args) {
+	
+	for(int i=1;i<=5;i++) {
+		
+		for(int j=i;j<5;j++) {
 			
-			for(int j = i; j <5; j++) { 
-				System.out.print(" ");
-			}
-			for (int k = 1; k <=i; k++) {
-				System.out.print("*");
+			if(i<j) {
 				
-	System.out.println();
-		}
-    }	
-}
-}
+				System.out.print(" ");
+				
+			for{
+				
+				System.out.print("*");
+			
+		System.out.println("");
+		
+
+		
+
 //출력결과
-    *
-   **
-  ***
- ****
+//   *
+//  **
+// ***
+//****
