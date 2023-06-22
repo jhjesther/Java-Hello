@@ -28,6 +28,26 @@ class BankAccount {
     }
 }
 
+
+class InsCnt{
+	static int instNum = 0;
+}
+
+ 	public Instcnt{
+		InstCnt(){
+			instNumm++;
+				System.out.println("인스턴스 생성: " + instNum);
+		}
+	}
+	
+	class classvar{
+		public static void main(String[] args) {
+			InstCnt cntl = new Instcnt();
+			InstCnt cnt2 = new Instcnt();
+			InstCnt cnt3 = new Instcnt();
+		}
+	}
+
 public class MainClass {
     
    public static void check(BankAccount acc) {

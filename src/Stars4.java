@@ -1,4 +1,4 @@
-public class Stars4
+public class Star4
 
 public static void main(String[] args) {
 	
@@ -14,8 +14,7 @@ public static void main(String[] args) {
 				
 				System.out.print("*");
 			
-		System.out.println("");
-		
+			
 
 		
 
