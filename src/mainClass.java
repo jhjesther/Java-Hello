@@ -51,7 +51,19 @@ class InsCnt{
 			InstCnt cnt3 = new Instcnt();
 		}
 	}
-
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 public class MainClass {
