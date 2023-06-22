@@ -28,13 +28,17 @@ class BankAccount {
     }
 }
 
-
+//static == (New 객체생성보다) 먼저 한 번 올려 공유(어디에다 method area에다)
+//static 변수 = 공유 변수 = 클래스 변수 =정적 변수
 class InsCnt{
 	static int instNum = 0;
 }
 
  	public Instcnt{
-		InstCnt(){
+ 		
+		static int instNum = 0;
+		
+ 		InstCnt(){
 			instNumm++;
 				System.out.println("인스턴스 생성: " + instNum);
 		}
@@ -48,6 +52,8 @@ class InsCnt{
 		}
 	}
 
+	
+	
 public class MainClass {
     
    public static void check(BankAccount acc) {
