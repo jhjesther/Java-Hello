@@ -13,7 +13,7 @@ public class ImmutableString {
 		
 		// 참조변수의 참조 값 비교
 		
-		if (str1.equals(str3))
+		if (str1.equals(str2))
 			
 			System.out.println("str1과 str2는 동일 인스턴스 참조");
 		
