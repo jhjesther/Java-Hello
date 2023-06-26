@@ -4,7 +4,7 @@
 Import java.utiil.Scanner; 
 public class publicVoidPractice {
 
-	class Main
+	static class Main
 	public static void main (String] args) {
 		
 		Scanner row = new Scanner(System.in);
