@@ -1,5 +1,5 @@
 public class lottoJackpot {
-	mport java.util.ArrayList;
+	import java.util.ArrayList;
 	import java.util.List;
 	import java.util.Random;
 	import java.util.Scanner;
@@ -9,12 +9,15 @@ public class lottoJackpot {
 
 	      // generate winning numbers
 	      List<Integer> winningNum = new ArrayList<>();
+	      
 	      Random random = new Random();
+	      
 	      for (int i = 0; i < 6; i++) {
 	         while (true) {
 	            // get a random number between 1 to 49
 	            int winning = random.nextInt(49) + 1;
-	            // add it to list if it is not exist
+	            
+	            // add it to list if it does not exist
 	            if (!winningNum.contains(winning)) {
 	               winningNum.add(winning);
 	               break;
