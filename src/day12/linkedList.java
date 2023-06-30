@@ -6,12 +6,13 @@ import java.util.List;
 public class linkedList {
 
 	public static void main(String[] args) {
-		List<String> list = new+);//컬렉션 인스턴스 생성
+		List<String> list = new linkedList<>();//컬렉션 인스턴스 생성
 		
 	//컬렉션 인스턴스에 문자열 인스턴스 저장
 	list.add("Toy");
 	list.add("Box");
 	list.add("Robot");
+	
 	
 	
 	//저장된 문자열 인스턴스의 참조
